@@ -1,0 +1,18 @@
+{
+  "name": "js-sass-html-autoreload",
+  "version": "0.0.0",
+  "description": "for html+sass+js prototyping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lu Cho-Ching",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "eslint": "^0.24.1",
+    "eslint-plugin-react": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
