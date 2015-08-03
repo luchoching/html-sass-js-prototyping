@@ -1,0 +1,61 @@
+/* source:  http://azimi.me/  */
+
+
+/* Reset come basic elements */
+body, 
+h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, hr, 
+dl, dd, ol, ul, figure { 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* basic styling */
+body { 
+  font-family: 'Noto Sans', sans-serif; 
+  font-size: 1em; 
+  line-height: 1.5; 
+  font-weight: 300; 
+  color: #111; 
+  background-color: #fdfdfd; 
+  -webkit-text-size-adjust: 100%; 
+}
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, 
+ul, ol, dl, figure { 
+  margin-bottom: 1em; 
+}
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/** Lists **/
+ul, ol {
+  margin-left: 2em;
+}
+li > ul, li > ol { margin-bottom: 0; }
+
+/** Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+
+/** Code formatting */
+pre, code { 
+  font-size: 1em; 
+  border: 1px solid #e8e8e8; 
+  border-radius: 3px; 
+}
+
+code { padding: 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: scroll; }
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+
+.content {
+  height: 80vh;
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+
